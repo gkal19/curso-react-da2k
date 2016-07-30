@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/static/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -42,6 +42,15 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1);
+	(function webpackMissingModule() { throw new Error("Cannot find module \"dev\""); }());
+	(function webpackMissingModule() { throw new Error("Cannot find module \"server\""); }());
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
 	console.log('Webpack is working')
